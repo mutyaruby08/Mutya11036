@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Interactive Calculator</title>
+    
+    </head>
+    <body class = "body">
+
+        <br><br>
+        <div class= "box">
+
+        <h1 class = "nameCal"> Simple Calculator</h1>
+        
+        <p class ="p1">First Number:&nbsp;<input type="text" name="num1" id="num1"></p>
+        <p class ="p1">Second Number:&nbsp;<input type="text" name="num2" id="num2"></p>
+       
+    
+        <div class="box">
+        <button onclick= "return addition();">+</button>&nbsp;&nbsp;
+        <button onclick="return subtraction();">-</button>&nbsp;&nbsp;
+        <button onclick="return multiply();">x</button>&nbsp;&nbsp;
+        <button onclick="return division();">/</button>&nbsp;&nbsp;
+        </div>
+
+        <div id ="box">
+        <p class = "p1">Result:&nbsp;<span type="text" id="res" readonly></span></span></p>
+        </div>
+
+        <div class = "box"><button type ="button" class = "mode" >Dark Mode</button></div>
+        
+        <br><br>
+        </div>
+        <script src="interCalcu.js"></script>
+        
+    </body>
+</html>
